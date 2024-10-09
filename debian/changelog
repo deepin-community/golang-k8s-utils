@@ -1,5 +1,111 @@
-template-repository (1.0-1) unstable; urgency=medium
+golang-k8s-utils (0.0~git20240921.49e7df5-1) unstable; urgency=medium
 
-  * Initial release
+  * New upstream snapshot
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- Mathias Gibbens <gibmat@debian.org>  Fri, 04 Oct 2024 01:57:49 +0000
+
+golang-k8s-utils (0.0~git20240821.f90d014-1) unstable; urgency=medium
+
+  * New upstream snapshot
+
+ -- Mathias Gibbens <gibmat@debian.org>  Sat, 24 Aug 2024 13:51:50 +0000
+
+golang-k8s-utils (0.0~git20240711.18e509b-1) unstable; urgency=medium
+
+  * New upstream snapshot
+
+ -- Mathias Gibbens <gibmat@debian.org>  Sun, 14 Jul 2024 21:01:34 +0000
+
+golang-k8s-utils (0.0~git20240502.fe8a2dd-1) unstable; urgency=medium
+
+  * New upstream snapshot
+  * Update Standards-Version to 4.7.0 in d/control (no changes needed)
+
+ -- Mathias Gibbens <gibmat@debian.org>  Sat, 04 May 2024 13:46:23 +0000
+
+golang-k8s-utils (0.0~git20240310.4693a02-1) unstable; urgency=medium
+
+  * New upstream snapshot
+    - Update Build-Depends and Depends
+
+ -- Mathias Gibbens <gibmat@debian.org>  Sun, 17 Mar 2024 16:44:38 +0000
+
+golang-k8s-utils (0.0~git20240102.e7106e6-1) unstable; urgency=medium
+
+  * New upstream snapshot
+  * Update years in d/copyright
+
+ -- Mathias Gibbens <gibmat@debian.org>  Fri, 19 Jan 2024 23:19:43 +0000
+
+golang-k8s-utils (0.0~git20230726.3b25d92-1) unstable; urgency=medium
+
+  * New upstream snapshot
+
+ -- Mathias Gibbens <gibmat@debian.org>  Sat, 16 Sep 2023 14:03:52 +0000
+
+golang-k8s-utils (0.0~git20230711.3019533-1) unstable; urgency=medium
+
+  * New upstream snapshot
+
+ -- Mathias Gibbens <gibmat@debian.org>  Sat, 22 Jul 2023 15:47:35 +0000
+
+golang-k8s-utils (0.0~git20230505.9f67429-1) unstable; urgency=medium
+
+  * New upstream snapshot
+  * Update renamed lintian tag
+
+ -- Mathias Gibbens <gibmat@debian.org>  Sat, 17 Jun 2023 16:09:55 +0000
+
+golang-k8s-utils (0.0~git20221128.99ec85e-1) unstable; urgency=medium
+
+  * New upstream snapshot
+  * d/control:
+    - Add myself to Uploaders
+    - Bump Standards-Version (no changes needed)
+  * Update d/copyright
+
+ -- Mathias Gibbens <gibmat@debian.org>  Wed, 11 Jan 2023 00:16:40 +0000
+
+golang-k8s-utils (0.0~git20220210.3a6ce19-2) unstable; urgency=medium
+
+  [ Debian Janitor ]
+  * Apply multi-arch hints. + golang-k8s-utils-dev: Add Multi-Arch: foreign.
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Wed, 07 Dec 2022 21:58:58 +0000
+
+golang-k8s-utils (0.0~git20220210.3a6ce19-1) unstable; urgency=medium
+
+  * Team upload.
+  * New upstream snapshot.
+  * Update standards version to 4.6.1, no changes needed.
+  * Add lintian override for debian-watch-does-not-check-gpg-signature.
+
+ -- Domenico Andreoli <cavok@debian.org>  Sun, 12 Jun 2022 21:29:43 +0200
+
+golang-k8s-utils (0.0~git20210930.cb0fa31-2) unstable; urgency=medium
+
+  * Use dh-sequence-golang.
+  * Ignore test failures.
+  * Update standards version to 4.6.0, no changes needed.
+
+ -- Andrej Shadura <andrewsh@debian.org>  Fri, 15 Oct 2021 21:14:26 +0200
+
+golang-k8s-utils (0.0~git20210930.cb0fa31-1) unstable; urgency=medium
+
+  * Team upload.
+  * New upstream snapshot.
+
+ -- Andrej Shadura <andrewsh@debian.org>  Fri, 15 Oct 2021 18:22:38 +0200
+
+golang-k8s-utils (0.0~git20210111.fddb29f-1) unstable; urgency=medium
+
+  * Team upload.
+  * Release to unstable.
+
+ -- Sergio Durigan Junior <sergiodj@debian.org>  Sat, 18 Sep 2021 00:25:22 -0400
+
+golang-k8s-utils (0.0~git20210111.fddb29f-1~exp1) experimental; urgency=medium
+
+  * Initial release (Closes: #984549)
+
+ -- Arthur Diniz <arthurbdiniz@gmail.com>  Thu, 04 Mar 2021 17:15:38 -0300
